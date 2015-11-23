@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 16, 2015, 5:06:05 PM
+    Author     : chinbaa-360
+*/
+
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url("fonts/RobotoCondensed-Light.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: italic;
+    font-weight: 300;
+    src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'), url("fonts/RobotoCondensed-LightItalic.ttf") format('truetype');
+}
+
+/* Normal */
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url("RobotoCondensed-Regular.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: italic;
+    font-weight: 400;
+    src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url("RobotoCondensed-Italic.ttf") format('truetype');
+}
+
+/* Bold */
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url("RobotoCondensed-Bold.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: italic;
+    font-weight: 700;
+    src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url("RobotoCondensed-BoldItalic.ttf") format('truetype');
+}
