@@ -1,0 +1,91 @@
+.tabbed_content {
+    /*background-color: #000000;*/
+    width: 800px;
+    position: relative;
+    display: inline;
+}
+
+.tabs {
+    height: 0px;
+    position: relative;
+    padding-left: 325px;
+    text-align: center;
+}
+
+.tabs .moving_bg {
+    padding: 15px;
+    /*background-color:#7F822A;*/
+    /*background-image:url(../images/arrow_down_green.gif);*/
+    position: absolute;
+    width: 125px;
+    z-index: 200;
+    left: 0;
+    /*padding-bottom: 29px;*/
+    /*background-position: bottom left;*/
+    /*background-repeat: no-repeat;*/
+}
+
+.tabs .tab_item {
+    display: inline-block;
+    float: left;
+    /*padding-left: 90px;*/
+    width: 200px;
+    /*color: #ffffff;*/
+    color:#000000;
+    text-align: center;
+    z-index: 200;
+    position: relative;
+    cursor: pointer;
+
+
+    /*margin-right: 30px;*/
+    /*margin-left: 10px;*/
+    font-size: 14px;
+    line-height: 50px;
+    margin-bottom: 5px;
+    display: inline;
+    font-family: "OpenSans", "arial";
+    text-transform: uppercase;
+    /*line-height: 23px;*/
+    /*margin-top: 1px;*/
+
+
+
+
+}
+
+.tabbed_content .slide_content {
+    overflow: hidden;
+    /*background-color: #000000;*/
+    /*padding: 20px 0 20px 20px;*/
+    position: relative;
+    width: 800px;
+    margin-left: 325px; // garj ireh contentiin zuun talaas hichneen zaitai baihiig tohiruulna
+}
+
+.tabslider {
+    width: 5000px;
+}
+
+.tabslider ul {
+    float: left;
+    width: 800px;
+    margin: 0px;
+    padding: 0px;
+    margin: 10px 0 0 10px;
+}
+
+.tabslider ul a {
+    /*color: #ffffff;*/
+    color: black;
+    text-decoration: none;
+}
+
+.tabslider ul a:hover {
+    color: #aaaaaa;
+}
+
+.tabslider ul li {
+    padding-bottom: 7px;
+    display: inline;
+}

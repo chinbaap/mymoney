@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- MODERNIZR -->
+        <script type="text/javascript" src="javascripts/vendor/modernizr.custom.js"></script>
+
+        <!-- STYLES -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <!--<link rel="stylesheet" type="text/css" href="stylesheets/vendor/normalize.css">-->
+        <!--<link rel="stylesheet" type="text/css" href="stylesheets/vendor/skeleton.css">-->
+        <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+        <!--<link rel="stylesheet" type="text/css" href="stylesheets/vendor/github.css">-->
+
+
+    </head>
+    <body>
+        <ul id="nav_menu">
+            <li><a class="nav_menu_link">Home</a></li>
+            <li class="nav_menu_link_drop_1">
+                <a class="nav_menu_link">DropDown 1</a>
+            </li>
+            <div id="content1" style="display: none;">
+                <ul style="padding: 20px; height: auto;">
+                    Contetn1
+                </ul>
+            </div>
+            <li class="nav_menu_link_drop_2">
+                <a class="nav_menu_link">DropDown 2 <i class="arrow down"></i></a></li>
+            <div id="content2" style="display: none;">
+                <ul style="padding: 20px; height: auto;">
+                    Contetn2
+                </ul>
+            </div>
+        </ul>
+        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+        <style>
+            * {   
+                margin: 0;
+                padding: 0;
+            }
+            #nav_menu {
+                position: absolute;
+                display: block;
+                height: 80px;
+                width: 100%;
+                background: orange;
+            }
+            #nav_menu li {
+                list-style-type: none;
+                text-decoration: none;
+                vertical-align: middle;
+                height: 80px;
+                display: inline-block;
+                position: relative;
+            }
+            .nav_menu_link {
+                color: black;
+                font-size: 18px;
+                height: 0;
+                font-family: Arial;
+                vertical-align: baseline;
+                position: relative;
+                display: inline-block;
+                height: auto;
+                padding: 29px;
+            }
+            .nav_menu_link:hover {
+                background: rgba(0, 0, 0, 0.4);
+                color: #FFF;
+                transition: all .2s;
+            }
+            .nav_menu_link:hover .arrow.down {
+                border-top-color: #FFF;
+            }
+
+            #content1:hover {
+                display: block !important;
+                width: 100%;
+                height: auto !important;
+                position: absolute;
+            }
+            #content2:hover {
+                display: block !important;
+                width: 100%;
+                height: auto !important;
+                position: absolute;
+            }
+            #content1, #content2 {
+                width: 100%;
+                height: auto;
+                background: gray;
+                display: none;
+                position: absolute;
+            }
+        </style>
+        <script>
+            var link1 = $(".nav_menu_link_drop_1");
+            var link2 = $(".nav_menu_link_drop_2");
+            var content1 = $('#content1');
+            var content2 = $('#content2');
+
+            $(link1).hover(
+                    function () {
+                        $(content1).slideDown(350);
+                    },
+                    function () {
+                        $(content1).slideUp(350);
+                    }
+            );
+
+            $(link2).hover(
+                    function () {
+                        $(content2).slideDown(350);
+                    },
+                    function () {
+                        $(content2).slideUp(350);
+                    }
+            );
+
+        </script>
+    </body>
+</html>

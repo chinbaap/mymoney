@@ -186,18 +186,18 @@ a.news-title:hover {
 }
 
 .mega-menu li {
-        display: inline-block;
-        float: left;
-        font-size: 0.94rem;
-        padding: 3px 0px;
+    display: inline-block;
+    float: left;
+    font-size: 0.94rem;
+    padding: 3px 0px;
 
-/*    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-family: "OpenSans", arial, Helvetica, sans-serif;
-    color: #a8aeb5;*/
+    /*    text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: "OpenSans", arial, Helvetica, sans-serif;
+        color: #a8aeb5;*/
 
 
 }
@@ -213,7 +213,7 @@ a.news-title:hover {
     display: inline-block;
     /*width: 100%;*/
     /*border-bottom: 1px solid #ddd;*/
-    border-bottom: 1px solid #dee0e3;
+    border: 1px solid #dee0e3;
 }
 .mega-menu img { padding-bottom: 10px;}
 
@@ -274,3 +274,20 @@ a.news-title:hover {
     -webkit-backface-visibility: hidden; /* Safari Flicker Fix #2 */
     -webkit-transform: translateZ(0);
 }	
+
+//slidedown panel 
+
+#panel, #flip {
+    margin-top: 5px;
+    /*padding: 5px;*/
+    text-align: center;
+    /*background-color: #e5eecc;*/
+    /*border: solid 1px #c3c3c3;*/
+    /*border-bottom: solid 1px #c3c3c3;*/
+}
+
+#panel {
+    /*padding: 50px;*/
+    display: none;
+    /*width: fit-content;*/
+}
