@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 25, 2015, 2:14:39 PM
+    Author     : chinbaa-360
+*/
+
+#nav_menu {
+    position: relative;
+    display: inline-block;
+    height: 80px;
+    margin-left: 170px; 
+    padding-left: 0px;
+    width: 100%;
+    /*background: orange;*/
+    text-align: center;
+}
+#nav_menu li {
+    word-spacing: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    vertical-align: middle;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+}
+.nav_menu_link {
+    color: #000; 
+    font-size: 14px;
+    height: 0;
+    font-family: "OpenSans", "arial";
+    font-weight:100;
+    vertical-align: central;
+    position: relative;
+    display: inline-block;
+    /*height: auto;*/
+    padding: 37px;
+    cursor: pointer;
+}
+.nav_menu_link:hover {
+
+    /*background: rgba(0, 0, 0, 0.4);*/
+    color:graytext;
+    /*transition: all .2s;*/
+    text-decoration: none;
+}
+.nav_menu_link:hover .arrow.down {
+    /*border-top-color: #FFF;*/
+    text-decoration: none;
+}
+
+#content1:hover, #content2:hover,#content3:hover,#content4:hover {
+    display: block !important;
+    width: 100%;
+    height: auto !important;
+    position: relative;
+}
+#content1, #content2,#content3, #content4 {
+    margin-top: 20px;
+    margin-left: 271px; //enenees boloo
+    padding-left:0px;
+    width: 100%;
+    height:auto;
+    /*background: gray;*/
+    display: inline-block;
+    position: relative;
+}
+

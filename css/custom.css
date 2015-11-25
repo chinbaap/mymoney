@@ -80,25 +80,19 @@ a.news-title:hover {
 #footer {
     background-color: #182A37;
     color: #E0E3E4;
-    font-family: "Roboto Condensed";
-
+    font-family: "Open Sans", "Arial";
     font-size: 12px;
     min-width: 1000px;
     margin:auto;
     text-align: center;
-
     clear: both;
     float: left;
-    min-height: 200px;
-
-    /*position:fixed;*/
-    left:0px;
-    bottom:0px;
+    min-height: 400px;
+    position:relative;
+    /*left:0px;*/
+    /*bottom:0px;*/
     /*height:30px;*/
     width:100%;
-
-
-
 }
 .product{
 
@@ -109,7 +103,7 @@ a.news-title:hover {
     font-family: "Open Sans";
     font-size: 20px;
     font-weight:100;
-    margin-left: -17px; 
+    /*margin-left: -17px;*/ 
 }
 
 #product-section-title{
@@ -168,8 +162,8 @@ a.news-title:hover {
 
 .service-list-image{
     border:1px solid #E0E3E4;
-    width: 290;
-    height:290px;
+    width: 200;
+    height:200px;
 
 }
 
@@ -242,8 +236,8 @@ a.news-title:hover {
 
 /* Toggle caret*/
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
-    border-bottom-color:;
-    border-top-color:;
+    /*    border-bottom-color:;
+        border-top-color:;*/
 }
 /* Toggle caret hover */
 .navbar .nav li.dropdown > a:hover .caret, 
