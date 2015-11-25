@@ -3,6 +3,15 @@
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  *//*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block
@@ -236,7 +245,9 @@ td, th {
         background: #fff !important
     }
 
-
+    .navbar {
+        display: none
+    }
 
     .table td, .table th {
         background-color: #fff !important
@@ -9468,11 +9479,6 @@ h3{font-size: 16px;}
 .cont-html ul{padding-left: 0px;}
 .cont-html ul li{background:url("https://stat.mobicom.mn/stat/images/list-tseg.png") no-repeat 20px 10px;list-style: none;
                  padding-left: 50px;}
-
-
-
-
-
 
 .news-list {padding-bottom: 0;}
 .news-list .news-list-more{color: #ca0813;font-size: 11px;text-align: right;}
