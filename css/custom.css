@@ -99,10 +99,13 @@ a.news-title:hover {
 }
 
 .product-section-header{
-    color:#ca0813;
-    font-family: "Open Sans";
+    /*color:#ca0813;*/
+    color:#A41C06;
+    font-family: "Open Sans","arial";
     font-size: 20px;
-    font-weight:100;
+    font-weight:400;
+    font-stretch:expanded;
+    letter-spacing: 1px; // space between letters config
     /*margin-left: -17px;*/ 
 }
 

@@ -4756,6 +4756,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 .navbar-inverse .navbar-text {
     /*color: #9d9d9d;*/
     color:#ca0813;
+
     font-family: "Roboto Condensed";
 }
 .navbar-inverse .navbar-nav>li>a {
@@ -4766,7 +4767,8 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 .navbar-inverse .navbar-nav>li>a:focus,
 .navbar-inverse .navbar-nav>li>a:hover {
     /*color: #a94442;*/
-    color:#ca0813;
+    /*color:#ca0813;*/
+    color: #A41C06;
     background-color: transparent;
 
 }
@@ -5136,7 +5138,7 @@ a.badge:hover {
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
-    border-radius: 6px
+    border-radius: 6px;
 }
 .jumbotron .container {
     max-width: 100%
