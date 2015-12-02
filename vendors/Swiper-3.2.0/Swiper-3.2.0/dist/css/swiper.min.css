@@ -273,7 +273,7 @@ button.swiper-pagination-bullet {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0))
 }
 .swiper-container-coverflow .swiper-wrapper {
-    -ms-perspective: 1200px
+    -ms-perspective: 1583px;
 }
 .swiper-container-fade.swiper-container-free-mode .swiper-slide {
     -webkit-transition-timing-function: ease-out;

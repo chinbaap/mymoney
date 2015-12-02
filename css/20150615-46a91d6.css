@@ -122,7 +122,6 @@
     /*display: inline-block;*/
     float: left; 
     font-size: 14px;
-    color:yellow;
     font-family: "Open Sans","arial";
     text-transform: uppercase;
     margin-left:30px;
@@ -134,7 +133,8 @@
 .sub-menu-li-hover a{
     font-family: "Open Sans","arial";
     font-size: 14px;
-    color:#000;
-    font-weight: 300;
+    /*color:#000;*/
+    color:#525961;
+    font-weight: 400;
     text-decoration: none;
 }
